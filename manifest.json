@@ -1,0 +1,12 @@
+{
+    "name": "Tab Keeper",
+    "description" : "This extension helps to quickly save open tabs and return to them later.",
+    "permissions": ["storage",
+                   "tabs"],
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "popup.png"
+    }
+  }

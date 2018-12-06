@@ -1,0 +1,124 @@
+.tabfavicon{
+    height: 16px;
+    margin: 2px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.note{
+    padding: 7px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.noteName input[type="text"]{
+    border: 1px solid #F7F7F7;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: none;
+    width: 155px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: medium;
+    background-color: #F7F7F7;
+    display: inline-block;
+}
+
+.noteNameStatic{
+    border: 1px solid #FFF;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: none;
+    width: 135px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: medium;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+.noteName input[type="text"]:focus {
+    color: #000;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    outline:none;
+}
+
+.noteName input::-webkit-input-placeholder {
+    color: #000;
+    transition: 0.2s linear;
+}
+
+.noteName input:focus::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.tabsList {
+    width: 230px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.note tabsList {
+    width: 240px;
+}
+
+.but{
+    width: 60px;
+    height: 20px;
+    margin-top: 8px;
+    display: inline-block;
+    background: #F47F93;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    padding-top: 4px;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.note:hover .but{
+    opacity: 1;
+}
+
+body {
+    padding: 0px;
+    width: 250px;
+    margin: 0px;
+    background-color: #F7F7F7;
+}
+
+#save{
+    background-color: #9BC474;  
+    opacity: 1;
+}
+
+.noteName {
+    width: 240px;
+}
+
+#createnote {
+    background-color: #F7F7F7;
+    width: 250px;
+}
+
+.split{
+    height: 1px;
+    background-color: #efefef;
+    width: 200px;
+    margin-left: 25px;
+}
+.noteListClass {
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 8px 0px #0000001f;
+}
+
+#notesList .note{
+    width: 240px;
+}
